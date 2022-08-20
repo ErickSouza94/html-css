@@ -153,3 +153,41 @@ article .list p{
     
 }
 
+aside{
+    background-color: var(--cor0);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+
+aside h3{
+    background-color: var(--cor3);
+    color: white;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.534);
+}
+
+aside .curiosidades{
+    list-style-position: inside;    
+}
+
+footer{
+    background-color: var(--cor5);
+    text-align: center;
+    color: white;
+    padding: 6px;
+    font-size: 0.8em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: blue;
+}
