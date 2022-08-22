@@ -3,7 +3,8 @@
 
 
 Estou aprendendo a criar sites e agora irei gerenciar meus repositórios.
-Alguns dos desafios que mais gostei de fazer.
+<br>
+Alguns dos desafios que mais gostei de fazer até agora.
 
 <a href = "https://ericksouza94.github.io/html-css/Desafios/desafio03/index.html"> Desafio do Mapa Mundi
 
