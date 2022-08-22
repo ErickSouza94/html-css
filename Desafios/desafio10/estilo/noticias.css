@@ -107,6 +107,7 @@ footer{
     text-align: center;
     font-size: 0.8em;
     padding: 6px;
+    font-family: var(--fonte-padrao);
 }
 
 footer a{

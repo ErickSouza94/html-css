@@ -83,7 +83,8 @@ main{
     background-color: white;
     margin: auto;
     padding: 20px;
-    width: 81.8%;
+    min-width: 300px;
+    max-width: 1000px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
     margin-bottom: 30px;
     border-bottom-left-radius: 10px;
@@ -96,7 +97,11 @@ main p{
     font-weight: normal;
     margin: 15px 0px;
     text-indent: 20px;
-    line-height: 2em;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    text-align: justify;
+    
+    
     
 }
 
@@ -107,26 +112,37 @@ article h1{
     font-size: 1.8em;
 }
 
-.android {
-    width: 40%;
-    padding: 8px;
-    display: inline-block;
-    margin-left: 25%;
+ .android {
+    max-width: 300px;
+    min-width: 80px;
+    display: block;
+    
+    padding-top: 10px;
+    margin: auto;
+    
 }
 
+/*
 .content{
     display: flex;
+    max-width: 500px;
+    min-width: 100px;
+    
+    
 }
 
 .descricao{
     float: right;
     vertical-align: top; 
-    width: 500px;
-    padding: 20px;
+    max-width: 500px;
+    min-width: 350px;
     text-align: justify;
-} 
+    padding: 20px;
+    margin-left: 150px;  
+}  
+*/
+  
 
-    
 article h2{
     font-family: var(--font-android);
     color: var(--cor4);
