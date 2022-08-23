@@ -3,21 +3,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+            /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+
+            /*Shorthand - Background
+                color > image > position > repeat > [size] (não está funcionando com o size, então temos que usar em ele e adicionar depois) > attachment            
+            */
+
+            background: black url(imagens/wallpaper002.jpg)center center no-repeat fixed;
+            background-size: cover;
+
         }
 
         main{
             background-color: white;
             padding: 10px;
-            width: 400px;
+            min-width: 300px;
+            max-width: 600px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
@@ -32,6 +42,10 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deserunt eaque facilis laboriosam deleniti officia ab quisquam temporibus dolorum, provident voluptas iste dolorem qui voluptates doloribus libero, illum, doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam eligendi, architecto voluptatem tempora laudantium debitis expedita iusto laborum labore, voluptatum exercitationem dolore, quibusdam quas et aliquid enim quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam asperiores soluta hic reprehenderit laudantium? Adipisci amet beatae dignissimos? Adipisci veritatis mollitia itaque vel aliquid distinctio molestias nobis provident dicta esse.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deserunt eaque facilis laboriosam deleniti officia ab quisquam temporibus dolorum, provident voluptas iste dolorem qui voluptates doloribus libero, illum, doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam eligendi, architecto voluptatem tempora laudantium debitis expedita iusto laborum labore, voluptatum exercitationem dolore, quibusdam quas et aliquid enim quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam asperiores soluta hic reprehenderit laudantium? Adipisci amet beatae dignissimos? Adipisci veritatis mollitia itaque vel aliquid distinctio molestias nobis provident dicta esse.</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deserunt eaque facilis laboriosam deleniti officia ab quisquam temporibus dolorum, provident voluptas iste dolorem qui voluptates doloribus libero, illum, doloremque Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde quam eligendi, architecto voluptatem tempora laudantium debitis expedita iusto laborum labore, voluptatum exercitationem dolore, quibusdam quas et aliquid enim quia Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam asperiores soluta hic reprehenderit laudantium? Adipisci amet beatae dignissimos? Adipisci veritatis mollitia itaque vel aliquid distinctio molestias nobis provident dicta esse.</p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, tempora sunt, commodi culpa fugit maxime vero aspernatur voluptas eius doloribus aliquid animi autem sed nisi minus ex esse natus delectus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, fuga magni! Nam, quos asperiores accusantium nostrum, quibusdam, sunt iusto consequuntur ea repellendus ipsam voluptas hic. Temporibus necessitatibus deserunt doloribus a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo reprehenderit qui dolorem nulla excepturi numquam consequatur saepe, totam, cum blanditiis voluptas beatae accusantium! Esse, totam at reprehenderit laudantium consequatur ut.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nobis et molestiae incidunt ad, provident suscipit dolore laborum hic saepe harum, unde possimus, porro nemo esse magnam consectetur! Reprehenderit, eum.
+    </p>
     
     
     </main>
