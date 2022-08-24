@@ -14,9 +14,8 @@ Alguns dos desafios que mais gostei de fazer até agora.
 <a href = "https://ericksouza94.github.io/html-css/Desafios/desafio08/index.html" target="_blank"> Desafio de Navegação Entre Páginas
 
 <a href ="https://ericksouza94.github.io/html-css/Desafios/desafio09/index.html" target="_blank"> Desafio dos Vídeos
-<br>
 
-Você pode ver meus projetos aqui também.
+<p>Você pode ver meus projetos aqui também.</p>
 
 <a href = "https://ericksouza94.github.io/html-css/Desafios/desafio10/android.html" target="_blank"> Projeto Android
 
