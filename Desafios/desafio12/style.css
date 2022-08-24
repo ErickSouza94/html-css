@@ -25,7 +25,7 @@ header h1{
     color: white;
     text-align: center;
     font-family: var(--fonte-header);
-    font-size: 5em;
+    font-size: 10vw;
     font-variant: small-caps;
     padding-top: 50px;
 
@@ -55,25 +55,25 @@ a:hover{
 }
 
 main{
- font-family: var(--fonte-p);
- min-height: 100vh;
- padding-top: 100px;
- text-align: left;
- font-size: 1.2em;
+    font-family: var(--fonte-p);
+    min-height: 100vh;
+    padding-top: 100px;
+    text-align: left;
+    font-size: 4vw;
  
 }
   
 
 section{
-    padding-top: 15h;
+    padding-top: 15vh;
     padding-bottom: 15vh ;
     line-height: 2em;
     padding-left: 30px;
+    font-size: 4vw;
 }
 
 .imagem{
     background-image: url(imagens/background001.jpg);
-    color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:right center;
@@ -82,32 +82,48 @@ section{
     min-width: 460px;
     padding-top: 70px;
     padding-bottom: 70px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.342);
     
 }
 
 section.imagem p{
     background-color: rgba(0, 0, 0, 0.315);
-    width: 300px;
-
+    color: white;
+    font-family: var(--fonte-p);
+    text-align: left;
+    font-size: 4vw;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    
 }
 
 
 .imagem2{
     background-image: url(imagens/background002.jpg);
-    color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
-   margin: auto;
-   background-attachment: fixed;
-   min-width: 460px;
-   padding-top: 70px;
-   padding-bottom: 70px;
+    margin: auto;
+    background-attachment: fixed;
+    min-width: 460px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
 }
 
 section.imagem2 p{
     background-color: rgba(0, 0, 0, 0.315);
-    width: 300px;
+    color: white;
+    font-family: var(--fonte-p);
+    text-align: left;
+    font-size: 4vw;
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    
+    
+    
 }
 
 footer{
