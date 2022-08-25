@@ -4,7 +4,7 @@
 
 @font-face{
     font-family: 'Android';
-    src: url('/fontes/idroid.otf') format('opentype');
+    src: url('/fontes/idroid.otf');
     font-weight: normal;
 }
 
@@ -30,7 +30,7 @@
 
 body{
     background-color: var(--cor0);
-    font-family: var(--fonte-padrao);
+    
 }
 
 header{
@@ -129,11 +129,13 @@ main h2{
 }
 
 main p{
+    font-family: var(--fonte-padrao);
     margin: 15px 0px;
     text-align: justify;
     text-indent: 25px;
     font-size: 1em;
     line-height: 2em;
+
 }
 
 main strong{
