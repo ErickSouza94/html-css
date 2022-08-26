@@ -13,13 +13,21 @@
       table {
         width: 500px;
         border-collapse: collapse;
+        position: relative;
       }
+
 
       caption{
         font-size: 1.5em;
         font-weight: bold;
         padding: 10px;
         background-color: lightgrey;
+      }
+
+      thead tr th{
+        position: sticky;
+        top: -1px;
+        background-color: grey;
       }
 
       td,
@@ -32,6 +40,11 @@
         text-align: right;
       }
       
+      tbody tr:nth-child(odd){
+        background-color: rgba(128, 128, 128, 0.753);
+        color: white;
+      }
+
       td.porc{
         text-align: center;
       }
@@ -212,5 +225,8 @@
         </tr>
       </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni ea illo dolore a itaque officia, laboriosam recusandae fugit culpa minima rerum praesentium? Deserunt, minima quasi qui consectetur cumque ipsum?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati maxime nisi magnam omnis, nulla neque voluptatem numquam nostrum dolorum, perferendis, alias aliquid odit repellendus qui fugit impedit eum vero facere?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laborum sed, voluptates libero iure ipsum dolore esse ipsa, quasi obcaecati fugiat assumenda. Officiis odio nesciunt eum! Natus pariatur aliquid unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero labore quidem, ea, repellat provident quasi et itaque qui expedita nihil! Ab consectetur fugiat porro vero fuga. Molestias, est accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt cum cupiditate! Laboriosam aut soluta cum iusto voluptate ea culpa laborum nemo a totam sit delectus, reprehenderit quaerat commodi quis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magni ea illo dolore a itaque officia, laboriosam recusandae fugit culpa minima rerum praesentium? Deserunt, minima quasi qui consectetur cumque ipsum?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati maxime nisi magnam omnis, nulla neque voluptatem numquam nostrum dolorum, perferendis, alias aliquid odit repellendus qui fugit impedit eum vero facere?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga laborum sed, voluptates libero iure ipsum dolore esse ipsa, quasi obcaecati fugiat assumenda. Officiis odio nesciunt eum! Natus pariatur aliquid unde. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam libero labore quidem, ea, repellat provident quasi et itaque qui expedita nihil! Ab consectetur fugiat porro vero fuga. Molestias, est accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores deserunt cum cupiditate! Laboriosam aut soluta cum iusto voluptate ea culpa laborum nemo a totam sit delectus, reprehenderit quaerat commodi quis?</p>
+    
   </body>
 </html>
