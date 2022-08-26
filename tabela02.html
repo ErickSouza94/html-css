@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      table {
+        width: 500px;
+        border-collapse: collapse;
+      }
+
+      caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgrey;
+      }
+
+      td,
+      th {
+        border: 1px solid black;
+        padding: 10px;
+      }
+
+      td.numero{
+        text-align: right;
+      }
+      
+      td.porc{
+        text-align: center;
+      }
+
+      thead,
+      tfoot {
+        background-color: gray;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION (legenda)
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH 
+                
+        não necessáriamente é preciso ter THEAD e TFOOT
+    -->
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+      <thead>
+        <tr>
+          <th scope="col">Estado</th>
+          <th scope="col" style="width:50px;">População</th>
+          <th scope="col">%da pop. total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>São Paulo</td>
+          <td class="numero">41 262 199</td>
+          <td class="porc">21,9%</td>
+        </tr>
+        <tr>
+          <td>Minas Gerais</td>
+          <td class="numero">19 597 330</td>
+          <td class="porc">10,1%</td>
+        </tr>
+        <tr>
+          <td>Rio de Janeiro</td>
+          <td class="numero">15 989 929</td>
+          <td class="porc">8,2%</td>
+        </tr>
+        <tr>
+          <td>Bahia</td>
+          <td class="numero">14 016 906</td>
+          <td class="porc">7,1%</td>
+        </tr>
+        <tr>
+          <td>Paraná</td>
+          <td class="numero">10 444 526</td>
+          <td class="porc">5,4%</td>
+        </tr>
+        <tr>
+          <td>Rio Grande do Sul</td>
+          <td class="numero">10 693 929</td>
+          <td class="porc">5,4%</td>
+        </tr>
+        <tr>
+          <td>Pernambuco</td>
+          <td class="numero">8 796 448</td>
+          <td class="porc">4,5%</td>
+        </tr>
+        <tr>
+          <td>Ceará</td>
+          <td class="numero">8 452 381</td>
+          <td class="porc">4,3%</td>
+        </tr>
+        <tr>
+          <td>Pará</td>
+          <td class="numero">7 581 051</td>
+          <td class="porc">4,1%</td>
+        </tr>
+        <tr>
+          <td>Santa Catarina</td>
+          <td class="numero">6 248 436</td>
+          <td class="porc">3,4%</td>
+        </tr>
+        <tr>
+          <td>Goiás</td>
+          <td class="numero">6 003 788</td>
+          <td class="porc">3,4%</td>
+        </tr>
+        <tr>
+          <td>Maranhão</td>
+          <td class="numero">6 574 789</td>
+          <td class="porc">3,4%</td>
+        </tr>
+        <tr>
+          <td>Amazonas</td>
+          <td class="numero">3 483 985</td>
+          <td class="porc">2,0%</td>
+        </tr>
+        <tr>
+          <td>Espírito Santo</td>
+          <td class="numero">3 514 952</td>
+          <td class="porc">1,9%</td>
+        </tr>
+        <tr>
+          <td>Paraíba</td>
+          <td class="numero">3 766 528</td>
+          <td class="porc">1,9%</td>
+        </tr>
+        <tr>
+          <td>Mato Grosso</td>
+          <td class="numero">3 035 122</td>
+          <td class="porc">1,7%</td>
+        </tr>
+        <tr>
+          <td>Rio Grande do Norte</td>
+          <td class="numero">3 168 027</td>
+          <td class="porc">1,7%</td>
+        </tr>
+        <tr>
+          <td>Alagoas</td>
+          <td class="numero">3 120 494</td>
+          <td class="porc">1,6%</td>
+        </tr>
+        <tr>
+          <td>Piauí</td>
+          <td class="numero">3 118 360</td>
+          <td class="porc">1,6%</td>
+        </tr>
+        <tr>
+          <td>Distrito Federal</td>
+          <td class="numero">2 570 160</td>
+          <td class="porc">1,4%</td>
+        </tr>
+        <tr>
+          <td>Mato Grosso do Sul</td>
+          <td class="numero">2 449 024</td>
+          <td class="porc">1,3%</td>
+        </tr>
+        <tr>
+          <td>Sergipe</td>
+          <td class="numero">2 068 017</td>
+          <td class="porc">1,1%</td>
+        </tr>
+        <tr>
+          <td>Rondônia</td>
+          <td class="numero">1 562 409</td>
+          <td class="porc">0,8%</td>
+        </tr>
+        <tr>
+          <td>Tocantins</td>
+          <td class="numero">1 383 445</td>
+          <td class="porc">0,7%</td>
+        </tr>
+        <tr>
+          <td>Acre</td>
+          <td class="numero">733 559</td>
+          <td class="porc">0,4%</td>
+        </tr>
+        <tr>
+          <td>Amapá</td>
+          <td class="numero">669 526</td>
+          <td class="porc">0,4%</td>
+        </tr>
+        <tr>
+          <td>Roraima</td>
+          <td class="numero">450 479</td>
+          <td class="porc">0,3%</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Total de Habitantes</th>
+          <td class="numero"><strong>213.317.639</strong></td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
