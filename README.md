@@ -17,7 +17,7 @@ Alguns dos <strong>DESAFIOS</strong> e <strong>PROJETOS</strong> que mais gostei
 
 <a href = "https://ericksouza94.github.io/projeto-redes-sociais/" target="_blank"> Projeto Mídias Sociais
 
-<a href = "https://github.com/ErickSouza94/projeto-login" target="_blank"> Projeto Login Responsivo
+<a href = "https://ericksouza94.github.io/projeto-login/" target="_blank"> Projeto Login Responsivo
 
 <a href = "https://ericksouza94.github.io/projeto-android/" target="_blank"> Projeto Android
 
