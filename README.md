@@ -15,6 +15,10 @@ Alguns dos <strong>DESAFIOS</strong> e <strong>PROJETOS</strong> que mais gostei
 
 <a href ="https://ericksouza94.github.io/html-css/Desafios/desafio09/index.html" target="_blank"> Desafio dos Vídeos
 
+<a href = "https://ericksouza94.github.io/projeto-redes-sociais/" target="_blank"> Projeto Mídias Sociais
+
+<a href = "https://github.com/ErickSouza94/projeto-login" target="_blank"> Projeto Login Responsivo
+
 <a href = "https://ericksouza94.github.io/projeto-android/" target="_blank"> Projeto Android
 
 <a href = "https://ericksouza94.github.io/projeto-cordel/" target="_blank"> Projeto Cordel Moderno
