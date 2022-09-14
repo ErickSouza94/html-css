@@ -22,3 +22,5 @@ Alguns dos <strong>DESAFIOS</strong> e <strong>PROJETOS</strong> que mais gostei
 <a href = "https://ericksouza94.github.io/projeto-android/" target="_blank"> Projeto Android
 
 <a href = "https://ericksouza94.github.io/projeto-cordel/" target="_blank"> Projeto Cordel Moderno
+
+<a href = "https://ericksouza94.github.io/projeto-nlw/" target="_blank"> Projeto NLW eSports
