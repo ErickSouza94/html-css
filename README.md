@@ -1,8 +1,17 @@
-# html-css
- Curso de HTML e CSS pelo CursoemVídeo
+# Curso de HTML e CSS
 
+Repositório criado para armazenar os exercícios e projetos desenvolvidos durante o curso de HTML e CSS do [Curso em Vídeo](https://www.cursoemvideo.com/).
 
-Estou aprendendo a criar sites e agora irei gerenciar meus repositórios.
+## 📚 Descrição
+
+Neste repositório, você encontrará exemplos práticos de conceitos fundamentais de HTML e CSS, incluindo:
+- Estrutura básica de um documento HTML.
+- Estilização de páginas web com CSS.
+- Trabalhos com tabelas, listas e formulários.
+
+## 🚀 Tecnologias Utilizadas
+- HTML5
+- CSS3
 
 
 Alguns dos <strong>DESAFIOS</strong> e <strong>PROJETOS</strong> que mais gostei de fazer até agora.
